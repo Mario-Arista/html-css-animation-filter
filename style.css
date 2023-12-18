@@ -286,7 +286,7 @@
         width: 30px;
         height: 30px; 
     }
-    
+
     100%{
         width: 60px;
         height: 60px; 
@@ -295,4 +295,39 @@
 }
 
 
-/* END 5th Excercise
+/* END 5th Excercise  */
+
+/* 6th Excercise  */
+
+.ex-6-img:hover {
+
+    animation-name: esercizio-6;
+    animation-duration: 4s;
+
+}
+
+@keyframes esercizio-6 {
+
+    0%{
+        filter: grayscale(0);
+    }
+
+    25%{
+        filter: grayscale(0.3);
+    }
+
+    50%{
+        filter: grayscale(0.6);
+    }
+
+    75%{
+        filter: grayscale(1);
+    }
+
+    100%{
+        filter: grayscale(0);
+    }
+
+}
+
+/* END 6th Excercise  */
