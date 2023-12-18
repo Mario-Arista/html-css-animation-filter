@@ -70,3 +70,35 @@
 
 /* Start coding here */
 
+/* First Excercise */
+
+#ex-number-one:hover {
+    animation-name: esercizio-1;
+    animation-duration: 4s;
+    background-color: #f5f5f5;
+
+}
+
+@keyframes esercizio-1 {
+
+    0%{
+        background-color: #f5f5f5;  
+    }
+
+    25%{
+        background-color: rgba(150, 0, 0, 1); 
+    }
+
+    50%{
+        background-color: rgba(255, 0, 0, 1);  
+    }
+
+    75%{
+        background-color: rgba(150, 0, 0, 1);  
+    }
+    100%{
+        background-color: #f5f5f5;  
+    }
+
+}
+/* END First Excercise */
