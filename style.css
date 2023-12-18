@@ -186,7 +186,7 @@
 
     animation-name: esercizio-4;
     animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 
     background-color: rgba(255, 0, 0, 1);
 
@@ -385,7 +385,7 @@
 
     animation-name: esercizio-8;
     animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 
     border-radius: 0%;
 
@@ -447,7 +447,7 @@
 
     animation-name: esercizio-9;
     animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 
     border-radius: 0%;
 
@@ -501,3 +501,63 @@
 }
 
 /* END 9th Excercise  */
+
+/* 10th Excercise  */
+
+.ex-10-icon {
+
+    animation-name: esercizio-10;
+    animation-duration: 8s;
+    animation-iteration-count: 10;
+
+    transform: rotate(180deg);
+
+}
+
+
+@keyframes esercizio-10 {
+
+    0%{
+        transform: rotate(0deg)
+    }
+
+    10%{
+        transform: rotate(40deg);
+        
+    }
+
+    20%{
+        transform: rotate(80deg);
+    }
+
+    30%{
+        transform: rotate(120deg);
+    }
+
+    40%{
+        transform: rotate(180deg);
+    }
+
+    50%{
+        transform: rotate(220deg);
+    }
+    60%{
+        transform: rotate(260deg);
+    }
+    70%{
+        transform: rotate(300deg);
+    }
+    80%{
+        transform: rotate(320deg);
+    }
+    90%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg)
+    }
+
+}
+
+
+/* 10th Excercise  */
