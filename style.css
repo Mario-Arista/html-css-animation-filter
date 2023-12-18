@@ -72,7 +72,7 @@
 
 /* First Excercise */
 
-#ex-number-one:hover {
+.ex-1-square:hover {
     animation-name: esercizio-1;
     animation-duration: 4s;
     background-color: #f5f5f5;
@@ -105,7 +105,7 @@
 
 /* Second Excercise */
 
-#ex-number-two:active {
+.ex-2-square:active {
 
     animation-name: esercizio-2;
     animation-duration: 2s;
@@ -147,7 +147,7 @@
 
 /* 3th Excercise */
 
-#ex-number-three:hover {
+.ex-3-square:hover {
 
     animation-name: esercizio-3;
     animation-duration: 4s;
@@ -184,7 +184,7 @@
 
 /* 4th Excercise */
 
-#ex-number-four {
+.ex-4-square {
 
     animation-name: esercizio-4;
     animation-duration: 4s;
@@ -218,3 +218,45 @@
 }
 
 /* END 4th Excercise */
+
+/* 5th Excercise */
+
+#ex-5-square:active {
+
+    animation-name: esercizio-2;
+    animation-duration: 2s;
+
+    width: 100px;
+    height: 100px;
+
+}
+
+@keyframes esercizio-2 {
+
+    0%{
+        width: 100px;
+        height: 100px; 
+    }
+
+    25%{
+        width: 500px;
+        height: 100px; 
+    }
+
+    50%{
+        width: 900px;
+        height: 100px; 
+    }
+
+    75%{
+        width: 1100px;
+        height: 100px; 
+    }
+    100%{
+        width: 100px;
+        height: 100px;  
+    }
+
+}
+
+/* END Second Excercise */
