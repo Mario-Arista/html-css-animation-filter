@@ -592,10 +592,11 @@
 /* 12th Exercise  */
 
 
-.ex-12-button:hover .ex-12-top-white {
+.ex-12-top-white {
 
     animation: esercizio-12-1;
     animation-duration:  2s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes esercizio-12-1 {
@@ -606,7 +607,7 @@
     }
 
     50% {
-        left: calc(100% - 65px);
+        left:  65px;
      
     }
 
@@ -617,10 +618,11 @@
 
 }
 
-.ex-12-button:hover .ex-12-bottom-white {
+.ex-12-bottom-white {
 
     animation: esercizio-12-2;
     animation-duration:  2s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes esercizio-12-2 {
@@ -632,7 +634,7 @@
 
     50% {
        
-        right: calc(100% - 65px);
+        right: 65px;
     }
 
     100% {
@@ -647,10 +649,11 @@
 
 /* 13th Exercise  */
 
-.ex-13-button:hover .ex-13-top-white {
+.ex-13-top-white {
 
     animation: esercizio-13-1;
     animation-duration:  2s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes esercizio-13-1 {
@@ -663,14 +666,22 @@
 
     25% {
     
-    top: -10px;
-    left: -65px;
+    top: 100%;
+    left: 10%;
      
     }
 
     50% {
+
     top: 100%;
-    left: -65px;
+    left: 0;
+    }
+
+    75% {
+
+    left: -15px;
+    top: -10px;
+
     }
 
     100% {
@@ -681,28 +692,46 @@
 
 }
 
-.ex-13-button:hover .ex-13-bottom-white {
+.ex-13-bottom-white {
 
     animation: esercizio-13-2;
     animation-duration:  2s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes esercizio-13-2 {
 
     0% {
+    bottom: -10px;
+    right: 20%;
+        
+    }
+
+    25% {
+    
+    bottom: -10px;
+    right: 65px;
      
-        bottom: -10px;
-        right: 20%;
     }
 
     50% {
-       
-        right: calc(100% - 65px);
+
+    bottom: 100%;
+    right: 65px;
+    }
+
+    75% {
+
+    right: -15px;
+    bottom: -10px;
+    
     }
 
     100% {
-   
-        right: 20%;
+
+    bottom: -10px;
+    right: 20%;
+    
     }
 
 }
