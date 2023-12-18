@@ -302,7 +302,7 @@
 .ex-6-img:hover {
 
     animation-name: esercizio-6;
-    animation-duration: 4s;
+    animation-duration: 1s;
 
 }
 
@@ -331,3 +331,52 @@
 }
 
 /* END 6th Excercise  */
+
+/* 7th Excercise  */
+
+.ex-7-img:hover {
+
+    animation-name: esercizio-7;
+    animation-duration: 4s;
+
+
+}
+
+@keyframes esercizio-7 {
+
+    0%{
+        filter: brightness(0);
+        transform: none;
+    }
+
+    20%{
+        filter: brightness(0.5);
+        transform: rotate(90deg);
+    }
+
+    40%{
+        filter: brightness(0.75);
+        transform: rotate(180deg);
+    }
+
+    60%{
+        filter: brightness(1);
+        transform: rotate(270deg);
+    }
+
+    80%{
+        filter: brightness(1.5);
+        transform: rotate(360deg);
+    }
+
+    100%{
+        filter: brightness(0);
+        transform: none;
+    }
+
+}
+
+
+
+
+/* END 7th Excercise  */
