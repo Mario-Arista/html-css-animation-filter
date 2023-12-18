@@ -70,7 +70,7 @@
 
 /* Start coding here */
 
-/* First Excercise */
+/* First Exercise */
 
 .ex-1-square:hover {
     animation-name: esercizio-1;
@@ -101,9 +101,9 @@
     }
 
 }
-/* END First Excercise */
+/* END First Exercise */
 
-/* Second Excercise */
+/* Second Exercise */
 
 .ex-2-square:active {
 
@@ -141,9 +141,9 @@
 
 }
 
-/* END Second Excercise */
+/* END Second Exercise */
 
-/* 3th Excercise */
+/* 3th Exercise */
 
 .ex-3-square:hover {
 
@@ -178,9 +178,9 @@
 
 }
 
-/* END 3th Excercise */
+/* END 3th Exercise */
 
-/* 4th Excercise */
+/* 4th Exercise */
 
 .ex-4-square:hover {
 
@@ -215,9 +215,9 @@
 
 }
 
-/* END 4th Excercise */
+/* END 4th Exercise */
 
-/* 5th Excercise */
+/* 5th Exercise */
 
 .ex-5-square:hover {
 
@@ -295,9 +295,9 @@
 }
 
 
-/* END 5th Excercise  */
+/* END 5th Exercise  */
 
-/* 6th Excercise  */
+/* 6th Exercise  */
 
 .ex-6-img:hover {
 
@@ -330,9 +330,9 @@
 
 }
 
-/* END 6th Excercise  */
+/* END 6th Exercise  */
 
-/* 7th Excercise  */
+/* 7th Exercise  */
 
 .ex-7-img:hover {
 
@@ -377,9 +377,9 @@
 }
 
 
-/* END 7th Excercise  */
+/* END 7th Exercise  */
 
-/* 8th Excercise  */
+/* 8th Exercise  */
 
 .ex-8-img {
 
@@ -439,9 +439,9 @@
 }
 
 
-/* END 8th Excercise  */
+/* END 8th Exercise  */
 
-/* 9th Excercise  */
+/* 9th Exercise  */
 
 .ex-9-img {
 
@@ -500,9 +500,9 @@
 
 }
 
-/* END 9th Excercise  */
+/* END 9th Exercise  */
 
-/* 10th Excercise  */
+/* 10th Exercise  */
 
 .ex-10-icon {
 
@@ -510,7 +510,7 @@
     animation-duration: 8s;
     animation-iteration-count: 10;
 
-    transform: rotate(180deg);
+    transform: rotate(0deg);
 
 }
 
@@ -551,7 +551,7 @@
         transform: rotate(320grad);
     }
     90%{
-        transform: rotate(340grad);
+        transform: rotate(360grad);
     }
     100%{
         transform: rotate(0grad)
@@ -560,17 +560,15 @@
 }
 
 
-/* 10th Excercise  */
+/* 10th Exercise  */
 
-/* 1qth Excercise  */
+/* 11th Exercise  */
 
 .ex-11-icon:hover {
 
     animation-name: esercizio-11;
-    animation-duration: 8s;
+    animation-duration: 4s;
     animation-iteration-count: 10;
-
-    transform: rotate(180deg);
 
 }
 
@@ -619,5 +617,64 @@
 
 }
 
+/* END 11th Exercise  */
 
-/* 10th Excercise  */
+/* 12th Exercise  */
+
+
+.ex-12-button:hover .ex-12-top-white {
+
+    animation: esercizio-12-1;
+    animation-duration:  2s;
+}
+
+@keyframes esercizio-12-1 {
+
+    0% {
+        left: 10%;
+        
+    }
+
+    50% {
+        left: calc(100% - 65px);
+     
+    }
+
+    100% {
+        left: 10%;
+    
+    }
+
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+
+    animation: esercizio-12-2;
+    animation-duration:  2s;
+}
+
+@keyframes esercizio-12-2 {
+
+    0% {
+     
+        right: 20%;
+    }
+
+    50% {
+       
+        right: calc(100% - 65px);
+    }
+
+    100% {
+   
+        right: 20%;
+    }
+
+}
+
+
+/* END 12th Exercise  */
+
+/* 13th Exercise  */
+
+/* END 13th Exercise  */
