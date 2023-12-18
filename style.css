@@ -509,55 +509,25 @@
     animation-name: esercizio-10;
     animation-duration: 8s;
     animation-iteration-count: 10;
-
-    transform: rotate(0deg);
-
+    transform: none;
 }
 
 
 @keyframes esercizio-10 {
 
-    0%{
-        transform: rotate(0grad)
+    0% {
+        transform: none;
     }
 
-    10%{
-        transform: rotate(40grad);
-        
+    50% {
+        transform: rotate(1turn);
     }
 
-    20%{
-        transform: rotate(80grad);
+    100% {
+        transform: none;
     }
+} 
 
-    30%{
-        transform: rotate(120grad);
-    }
-
-    40%{
-        transform: rotate(180grad);
-    }
-
-    50%{
-        transform: rotate(220grad);
-    }
-    60%{
-        transform: rotate(260grad);
-    }
-    70%{
-        transform: rotate(300grad);
-    }
-    80%{
-        transform: rotate(320grad);
-    }
-    90%{
-        transform: rotate(360grad);
-    }
-    100%{
-        transform: rotate(0grad)
-    }
-
-}
 
 
 /* 10th Exercise  */
