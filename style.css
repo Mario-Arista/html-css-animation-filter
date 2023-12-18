@@ -181,3 +181,40 @@
 }
 
 /* END 3th Excercise */
+
+/* 4th Excercise */
+
+#ex-number-four {
+
+    animation-name: esercizio-4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    background-color: rgba(255, 0, 0, 1);
+
+}
+
+@keyframes esercizio-4 {
+
+    0%{
+        background-color: rgba(255, 0, 0, 1);
+    }
+
+    25%{
+        background-color: rgba(255, 0, 0, 0.6);
+    }
+
+    50%{
+        background-color: rgba(255, 0, 0, 0.3);
+    }
+
+    75%{
+        background-color: rgba(255, 0, 0, 0);
+    }
+    100%{
+        background-color: rgba(255, 0, 0, 1); 
+    }
+
+}
+
+/* END 4th Excercise */
