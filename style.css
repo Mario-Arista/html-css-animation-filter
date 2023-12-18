@@ -102,3 +102,46 @@
 
 }
 /* END First Excercise */
+
+/* Second Excercise */
+
+#ex-number-two:active {
+
+    animation-name: esercizio-2;
+    animation-duration: 2s;
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+}
+
+@keyframes esercizio-2 {
+
+    0%{
+        width: 100px;
+        height: 100px; 
+    }
+
+    25%{
+        width: 500px;
+        height: 100px; 
+    }
+
+    50%{
+        width: 900px;
+        height: 100px; 
+    }
+
+    75%{
+        width: 1100px;
+        height: 100px; 
+    }
+    100%{
+        width: 100px;
+        height: 100px;  
+    }
+
+}
+
+/* END Second Excercise */
