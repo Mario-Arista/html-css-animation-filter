@@ -377,6 +377,66 @@
 }
 
 
-
-
 /* END 7th Excercise  */
+
+/* 8th Excercise  */
+
+.ex-8-img {
+
+    animation-name: esercizio-8;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    border-radius: 0%;
+
+}
+
+@keyframes esercizio-8 {
+
+    0%{
+    
+        border-radius: 0%;
+        filter: contrast(0);
+        filter: drop-shadow(0px 0px black);
+    }
+
+    20%{
+    
+        border-radius: 20%;
+        filter: contrast(0.5);
+        filter: drop-shadow(5px 5px black);
+        
+    }
+
+    40%{
+    
+        border-radius: 30%;
+        filter: contrast(1);
+        filter: drop-shadow(10px 10px black);
+    }
+
+    60%{
+    
+        border-radius: 40%;
+        filter: contrast(1.5);
+        filter: drop-shadow(15px 15px black);
+    }
+
+    80%{
+    
+        border-radius: 50%;
+        filter: contrast(2);
+        filter: drop-shadow(20px 20px black);
+    }
+
+    100%{
+     
+        transform: none;
+        filter: contrast(0);
+        filter: drop-shadow(0px 0px black);
+    }
+
+}
+
+
+/* END 8th Excercise  */
