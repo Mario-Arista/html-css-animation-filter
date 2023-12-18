@@ -110,32 +110,30 @@
     animation-name: esercizio-2;
     animation-duration: 2s;
 
-    width: 100px;
-    height: 100px;
+    width: 10%;
+    
 
 }
 
 @keyframes esercizio-2 {
 
     0%{
-        width: 100px;
-        height: 100px; 
+        width: 10%;
     }
 
     25%{
-        width: 500px;
-        height: 100px; 
+        width: 50%;
+
     }
 
     50%{
-        width: 900px;
-        height: 100px; 
+        width: 75%;
     }
 
     75%{
-        width: 1100px;
-        height: 100px; 
+        width: 100%;
     }
+
     100%{
         width: 100px;
         height: 100px;  
@@ -221,42 +219,80 @@
 
 /* 5th Excercise */
 
-#ex-5-square:active {
+.ex-5-square:hover {
 
-    animation-name: esercizio-2;
-    animation-duration: 2s;
+    animation-name: esercizio-5-1;
+    animation-duration: 4s;
 
-    width: 100px;
-    height: 100px;
-
+    width: 60px;
+    height: 60px; 
 }
 
-@keyframes esercizio-2 {
+@keyframes esercizio-5-1 {
 
     0%{
-        width: 100px;
-        height: 100px; 
+        width: 60px;
+        height: 60px; 
     }
 
     25%{
-        width: 500px;
-        height: 100px; 
+        width: 70px;
+        height: 70px; 
     }
 
     50%{
-        width: 900px;
-        height: 100px; 
+        width: 80px;
+        height: 80px; 
     }
 
     75%{
-        width: 1100px;
-        height: 100px; 
+        width: 90px;
+        height: 90px; 
     }
     100%{
-        width: 100px;
-        height: 100px;  
+        width: 60px;
+        height: 60px; 
     }
 
 }
 
-/* END Second Excercise */
+.ex-5-square:active {
+
+    animation-name: esercizio-5-2;
+    animation-duration: 4s;
+
+    width: 60px;
+    height: 60px; 
+}
+
+@keyframes esercizio-5-2 {
+
+    0%{
+        width: 60px;
+        height: 60px; 
+    }
+
+    25%{
+        width: 50px;
+        height: 50px; 
+    }
+
+    50%{
+        width: 40px;
+        height: 40px; 
+    }
+
+    75%{
+        width: 30px;
+        height: 30px; 
+    }
+    
+    100%{
+        width: 60px;
+        height: 60px; 
+    }
+
+}
+
+
+/* END 5th Excercise
