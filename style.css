@@ -118,7 +118,7 @@
 @keyframes esercizio-2 {
 
     0%{
-        width: 10%;
+        width: 100px;
     }
 
     25%{
@@ -127,11 +127,11 @@
     }
 
     50%{
-        width: 50%;
+        width: 75%;
     }
 
     75%{
-        width: 75%;
+        width: 100%;
     }
 
     100%{
@@ -346,32 +346,32 @@
 
     0%{
         filter: brightness(0);
-        transform: none;
+        transform: (0deg);
     }
 
     20%{
         filter: brightness(0.5);
-        transform: rotate(90deg);
+        transform: rotate(70deg);
     }
 
     40%{
         filter: brightness(0.75);
-        transform: rotate(180deg);
+        transform: rotate(140deg);
     }
 
     60%{
         filter: brightness(1);
-        transform: rotate(270deg);
+        transform: rotate(230deg);
     }
 
     80%{
         filter: brightness(1.5);
-        transform: rotate(360deg);
+        transform: rotate(300deg);
     }
 
     100%{
         filter: brightness(0);
-        transform: none;
+        transform: rotate(360deg);
     }
 
 }
@@ -381,7 +381,7 @@
 
 /* 8th Exercise  */
 
-.ex-8-img {
+.ex-8-img:hover {
 
     animation-name: esercizio-8;
     animation-duration: 4s;
@@ -443,7 +443,7 @@
 
 /* 9th Exercise  */
 
-.ex-9-img {
+.ex-9-img:hover {
 
     animation-name: esercizio-9;
     animation-duration: 4s;
@@ -507,7 +507,7 @@
 .ex-10-icon {
 
     animation-name: esercizio-10;
-    animation-duration: 8s;
+    animation-duration: 4s;
     animation-iteration-count: 10;
     transform: none;
 }
@@ -516,15 +516,15 @@
 @keyframes esercizio-10 {
 
     0% {
-        transform: none;
+        transform: rotate(0deg);
     }
 
     50% {
-        transform: rotate(1turn);
+        transform: rotate(180deg);
     }
 
     100% {
-        transform: none;
+        transform: rotate(360deg);
     }
 } 
 
@@ -666,22 +666,36 @@
 
     25% {
     
-    top: 100%;
-    left: 10%;
+    top: -10px;
+    left: 80%;
      
     }
 
     50% {
 
-    top: 100%;
-    left: 0;
+    top: 80%;
+    left: 80%;
     }
 
-    75% {
+    70% {
 
-    left: -15px;
-    top: -10px;
+    top: 80%;
+    left: 10%;
 
+    }
+
+    80% {
+
+    top: 80%;
+    left: -10%;
+    
+    }
+
+    90% {
+
+    top: 0%;
+    left: -10%;
+        
     }
 
     100% {
@@ -710,22 +724,30 @@
     25% {
     
     bottom: -10px;
-    right: 65px;
+    right: 80%;
      
     }
 
     50% {
 
     bottom: 100%;
-    right: 65px;
+    right: 80%;
+
     }
 
-    75% {
+    80% {
 
-    right: -15px;
-    bottom: -10px;
+    bottom: 100%;
+    right: -10%;
     
     }
+
+    90% {
+
+    bottom: -10px;
+    right: -10%;
+        
+        }
 
     100% {
 
